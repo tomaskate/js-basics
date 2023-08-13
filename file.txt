@@ -2,4 +2,4 @@ first line
 second line
 third change test
 branch new test changes
-remote commit
+changes from branch conflict

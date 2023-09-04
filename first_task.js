@@ -19,12 +19,12 @@ console.log(typeChecker(true, 5)); // виведе There are no type matches for
 /* 2. Написати функцію, яка, використовуючи тернарний оператор, виводить у консоль Yes, якщо число
 позитивне, та No якщо воно негативне */
 function isNegative(value) {
-  return value > 0 ? console.log("Yes") : console.log("No");
+  return value < 0 ? console.log("Yes") : console.log("No");
 }
 
 // Приклад роботи функції:
-isNegative(1); // виведе у консоль "Yes"
-isNegative(-1); // виведе у консоль "No"
+isNegative(-1); // виведе у консоль "Yes"
+isNegative(1); // виведе у консоль "No"
 
 /* 3. Написати функцію, яка повертає true якщо перший аргумент ділиться на другий без остачі, 
 або якщо ні - повертає false */

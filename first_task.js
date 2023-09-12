@@ -50,4 +50,4 @@ function recursiveAddition(value) {
 // Приклад роботи функції:
 recursiveAddition(5); // виведе в консоль по черзі 5, 7, 9
 recursiveAddition(2); // виведе в консоль по черзі 2, 4, 6, 8, 10
-recursiveAddition(11); // не виведе нічого
+recursiveAddition(11) ; // не виведе нічого
